@@ -18,6 +18,7 @@ static void DecompressGlyph_NormalCopy1(u16 glyphId, bool32 isJapanese);
 static void DecompressGlyph_NormalCopy2(u16 glyphId, bool32 isJapanese);
 static void DecompressGlyph_Male(u16 glyphId, bool32 isJapanese);
 static void DecompressGlyph_Bold(u16 glyphId);
+static void DecompressGlyph_Chinese(u8 glyphId);
 static s32 GetGlyphWidth_Small(u16 glyphId, bool32 isJapanese);
 static s32 GetGlyphWidth_NormalCopy1(u16 glyphId, bool32 isJapanese);
 static s32 GetGlyphWidth_Normal(u16 glyphId, bool32 isJapanese);
@@ -225,6 +226,7 @@ static const u8 sFontNormalLatinGlyphWidths[] =
      8,  8,  8,  8,  8,  8,  8,  6
 };
 static const u16 sFontNormalJapaneseGlyphs[] = INCBIN_U16("graphics/fonts/japanese_normal.fwjpnfont");
+static const u16 sFontChineseGlyphs[] = INCBIN_U16("graphics/fonts/chinese_normal.fwjpnfont");
 static const u8 sFontNormalJapaneseGlyphWidths[] =
 {
      0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10,
@@ -805,6 +807,12 @@ u16 RenderText(struct TextPrinter *textPrinter)
             currChar = *textPrinter->printerTemplate.currentChar | 0x100;
             textPrinter->printerTemplate.currentChar++;
             break;
+        case CHAR_CHINESE_LEAD:
+            if (*textPrinter->printerTemplate.currentChar == EOS)
+                return RENDER_FINISH;
+            currChar = 0x8000 | *textPrinter->printerTemplate.currentChar;
+            textPrinter->printerTemplate.currentChar++;
+            break;
         case CHAR_KEYPAD_ICON:
             currChar = *textPrinter->printerTemplate.currentChar++;
             gGlyphInfo.width = DrawKeypadIcon(textPrinter->printerTemplate.windowId, currChar, textPrinter->printerTemplate.currentX, textPrinter->printerTemplate.currentY);
@@ -814,7 +822,9 @@ u16 RenderText(struct TextPrinter *textPrinter)
             return RENDER_FINISH;
         }
 
-        switch (subStruct->glyphId)
+        if (currChar & 0x8000)
+            DecompressGlyph_Chinese(currChar & 0xFF);
+        else switch (subStruct->glyphId)
         {
         case FONT_SMALL:
             DecompressGlyph_Small(currChar, textPrinter->japanese);
@@ -1073,7 +1083,15 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
                 bufferPointer = DynamicPlaceholderTextUtil_GetPlaceholderPtr(*++str);
             while (*bufferPointer != EOS)
             {
-                glyphWidth = func(*bufferPointer++, isJapanese);
+                if (*bufferPointer == CHAR_CHINESE_LEAD && bufferPointer[1] != EOS)
+                {
+                    bufferPointer += 2;
+                    glyphWidth = CHINESE_GLYPH_WIDTH;
+                }
+                else
+                {
+                    glyphWidth = func(*bufferPointer++, isJapanese);
+                }
                 if (minGlyphWidth > 0)
                     lineWidth += minGlyphWidth > glyphWidth ? minGlyphWidth : glyphWidth;
                 else
@@ -1155,7 +1173,15 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
             lineWidth += glyphWidth;
             break;
         default:
-            glyphWidth = func(*str, isJapanese);
+            if (*str == CHAR_CHINESE_LEAD && str[1] != EOS)
+            {
+                ++str;
+                glyphWidth = CHINESE_GLYPH_WIDTH;
+            }
+            else
+            {
+                glyphWidth = func(*str, isJapanese);
+            }
             if (minGlyphWidth > 0)
             {
                 if (glyphWidth < minGlyphWidth)
@@ -1683,6 +1709,19 @@ static s32 GetGlyphWidth_Female(u16 glyphId, bool32 isJapanese)
     }
     else
         return sFontFemaleLatinGlyphWidths[glyphId];
+}
+
+static void DecompressGlyph_Chinese(u8 glyphId)
+{
+    const u16 *glyphs;
+
+    glyphs = sFontChineseGlyphs + (0x100 * (glyphId >> 3)) + (0x10 * (glyphId & 7));
+    DecompressGlyphTile(glyphs, (u16 *)gGlyphInfo.pixels);
+    DecompressGlyphTile(glyphs + 0x8, (u16 *)(gGlyphInfo.pixels + 0x20));
+    DecompressGlyphTile(glyphs + 0x80, (u16 *)(gGlyphInfo.pixels + 0x40));
+    DecompressGlyphTile(glyphs + 0x88, (u16 *)(gGlyphInfo.pixels + 0x60));
+    gGlyphInfo.width = CHINESE_GLYPH_WIDTH;
+    gGlyphInfo.height = CHINESE_GLYPH_HEIGHT;
 }
 
 static void DecompressGlyph_Bold(u16 glyphId)

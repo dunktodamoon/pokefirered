@@ -4,6 +4,9 @@ gOtherText_NewName::
 gNameChoice_Green::
     .string "GREEN$"
 
+gNameChoice_JianXiaKe::
+    .string "剑侠客$"
+
 gNameChoice_Red::
     .string "RED$"
 

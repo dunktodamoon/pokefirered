@@ -48,7 +48,11 @@
 #define CHAR_SUPER_ER          0x2C
 #define CHAR_AMPERSAND         0x2D
 #define CHAR_PLUS              0x2E
-//
+// Two-byte Chinese glyphs: lead byte, then a glyph index. Name-length
+// constants stay unchanged (trainer payload <= 7, species payload <= 10).
+#define CHAR_CHINESE_LEAD      0x2F
+#define CHINESE_GLYPH_WIDTH    12
+#define CHINESE_GLYPH_HEIGHT   12
 #define CHAR_LV                0x34
 #define CHAR_EQUALS            0x35
 #define CHAR_SEMICOLON         0x36

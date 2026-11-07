@@ -11,6 +11,7 @@
 #include "battle_setup.h"
 #include "berry.h"
 #include "data.h"
+#include "hang_name_hash.h"
 #include "decompress.h"
 #include "event_data.h"
 #include "evolution_scene.h"
@@ -1560,8 +1561,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum)
             else
                 personalityValue = 0x88; // Use personality more likely to result in a male Pokémon
 
-            for (j = 0; gTrainers[trainerNum].trainerName[j] != EOS; j++)
-                nameHash += gTrainers[trainerNum].trainerName[j];
+            nameHash = HangName_AddHashBytes(nameHash, HangName_TrainerHashSource(trainerNum), gTrainers[trainerNum].trainerName);
 
             switch (gTrainers[trainerNum].partyFlags)
             {
@@ -1569,8 +1569,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum)
             {
                 const struct TrainerMonNoItemDefaultMoves *partyData = gTrainers[trainerNum].party.NoItemDefaultMoves;
 
-                for (j = 0; gSpeciesNames[partyData[i].species][j] != EOS; j++)
-                    nameHash += gSpeciesNames[partyData[i].species][j];
+                nameHash = HangName_AddHashBytes(nameHash, HangName_SpeciesHashSource(partyData[i].species), gSpeciesNames[partyData[i].species]);
 
                 personalityValue += nameHash << 8;
                 fixedIV = partyData[i].iv * MAX_PER_STAT_IVS / 255;
@@ -1581,8 +1580,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum)
             {
                 const struct TrainerMonNoItemCustomMoves *partyData = gTrainers[trainerNum].party.NoItemCustomMoves;
 
-                for (j = 0; gSpeciesNames[partyData[i].species][j] != EOS; j++)
-                    nameHash += gSpeciesNames[partyData[i].species][j];
+                nameHash = HangName_AddHashBytes(nameHash, HangName_SpeciesHashSource(partyData[i].species), gSpeciesNames[partyData[i].species]);
 
                 personalityValue += nameHash << 8;
                 fixedIV = partyData[i].iv * MAX_PER_STAT_IVS / 255;
@@ -1599,8 +1597,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum)
             {
                 const struct TrainerMonItemDefaultMoves *partyData = gTrainers[trainerNum].party.ItemDefaultMoves;
 
-                for (j = 0; gSpeciesNames[partyData[i].species][j] != EOS; j++)
-                    nameHash += gSpeciesNames[partyData[i].species][j];
+                nameHash = HangName_AddHashBytes(nameHash, HangName_SpeciesHashSource(partyData[i].species), gSpeciesNames[partyData[i].species]);
 
                 personalityValue += nameHash << 8;
                 fixedIV = partyData[i].iv * MAX_PER_STAT_IVS / 255;
@@ -1613,8 +1610,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum)
             {
                 const struct TrainerMonItemCustomMoves *partyData = gTrainers[trainerNum].party.ItemCustomMoves;
 
-                for (j = 0; gSpeciesNames[partyData[i].species][j] != EOS; j++)
-                    nameHash += gSpeciesNames[partyData[i].species][j];
+                nameHash = HangName_AddHashBytes(nameHash, HangName_SpeciesHashSource(partyData[i].species), gSpeciesNames[partyData[i].species]);
 
                 personalityValue += nameHash << 8;
                 fixedIV = partyData[i].iv * MAX_PER_STAT_IVS / 255;
