@@ -266,7 +266,7 @@
     },
     {
       "id": "MAPSEC_PALLET_TOWN",
-      "name": "PALLET TOWN",
+      "name": "建邺城",
       "x": 4,
       "y": 11,
       "width": 1,
@@ -274,7 +274,7 @@
     },
     {
       "id": "MAPSEC_VIRIDIAN_CITY",
-      "name": "VIRIDIAN CITY",
+      "name": "长安城",
       "x": 4,
       "y": 8,
       "width": 1,
@@ -282,7 +282,7 @@
     },
     {
       "id": "MAPSEC_PEWTER_CITY",
-      "name": "PEWTER CITY",
+      "name": "长寿村",
       "x": 4,
       "y": 4,
       "width": 1,
@@ -290,7 +290,7 @@
     },
     {
       "id": "MAPSEC_CERULEAN_CITY",
-      "name": "CERULEAN CITY",
+      "name": "东海湾",
       "x": 14,
       "y": 3,
       "width": 1,
@@ -298,7 +298,7 @@
     },
     {
       "id": "MAPSEC_LAVENDER_TOWN",
-      "name": "LAVENDER TOWN",
+      "name": "地府",
       "x": 18,
       "y": 6,
       "width": 1,
@@ -306,7 +306,7 @@
     },
     {
       "id": "MAPSEC_VERMILION_CITY",
-      "name": "VERMILION CITY",
+      "name": "傲来村",
       "x": 14,
       "y": 9,
       "width": 1,
@@ -314,7 +314,7 @@
     },
     {
       "id": "MAPSEC_CELADON_CITY",
-      "name": "CELADON CITY",
+      "name": "五庄观",
       "x": 11,
       "y": 6,
       "width": 1,
@@ -322,7 +322,7 @@
     },
     {
       "id": "MAPSEC_FUCHSIA_CITY",
-      "name": "FUCHSIA CITY",
+      "name": "盘丝岭",
       "x": 12,
       "y": 12,
       "width": 1,
@@ -330,7 +330,7 @@
     },
     {
       "id": "MAPSEC_CINNABAR_ISLAND",
-      "name": "CINNABAR ISLAND",
+      "name": "火焰山",
       "x": 4,
       "y": 14,
       "width": 1,
@@ -338,7 +338,7 @@
     },
     {
       "id": "MAPSEC_INDIGO_PLATEAU",
-      "name": "INDIGO PLATEAU",
+      "name": "凌霄宝殿",
       "x": 2,
       "y": 3,
       "width": 1,
@@ -346,7 +346,7 @@
     },
     {
       "id": "MAPSEC_SAFFRON_CITY",
-      "name": "SAFFRON CITY",
+      "name": "朱紫国",
       "x": 14,
       "y": 6,
       "width": 1,
@@ -354,7 +354,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_4_POKECENTER",
-      "name": "ROUTE 4",
+      "name": "大唐境外",
       "name_clone": true,
       "x": 8,
       "y": 3,
@@ -372,7 +372,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_1",
-      "name": "ROUTE 1",
+      "name": "江南野外",
       "x": 4,
       "y": 9,
       "width": 1,
@@ -380,7 +380,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_2",
-      "name": "ROUTE 2",
+      "name": "大唐国境",
       "x": 4,
       "y": 5,
       "width": 1,
@@ -396,7 +396,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_4",
-      "name": "ROUTE 4",
+      "name": "大唐境外",
       "x": 8,
       "y": 3,
       "width": 6,
@@ -572,7 +572,7 @@
     },
     {
       "id": "MAPSEC_VIRIDIAN_FOREST",
-      "name": "VIRIDIAN FOREST",
+      "name": "大唐国境",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -580,7 +580,7 @@
     },
     {
       "id": "MAPSEC_MT_MOON",
-      "name": "MT. MOON",
+      "name": "大雁塔",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -588,7 +588,7 @@
     },
     {
       "id": "MAPSEC_S_S_ANNE",
-      "name": "S.S. ANNE",
+      "name": "圣安奴楼船",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -596,7 +596,7 @@
     },
     {
       "id": "MAPSEC_UNDERGROUND_PATH",
-      "name": "UNDERGROUND PATH",
+      "name": "东海岩洞",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -604,7 +604,7 @@
     },
     {
       "id": "MAPSEC_UNDERGROUND_PATH_2",
-      "name": "UNDERGROUND PATH",
+      "name": "东海岩洞",
       "name_clone": true,
       "x": 0,
       "y": 0,
@@ -621,7 +621,7 @@
     },
     {
       "id": "MAPSEC_KANTO_VICTORY_ROAD",
-      "name": "VICTORY ROAD",
+      "name": "天宫",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -629,7 +629,7 @@
     },
     {
       "id": "MAPSEC_ROCKET_HIDEOUT",
-      "name": "ROCKET HIDEOUT",
+      "name": "狮驼岭",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -637,7 +637,7 @@
     },
     {
       "id": "MAPSEC_SILPH_CO",
-      "name": "SILPH CO.",
+      "name": "朱紫国商楼",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -653,7 +653,7 @@
     },
     {
       "id": "MAPSEC_KANTO_SAFARI_ZONE",
-      "name": "SAFARI ZONE",
+      "name": "江南野外",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -661,7 +661,7 @@
     },
     {
       "id": "MAPSEC_POKEMON_LEAGUE",
-      "name": "POKéMON LEAGUE",
+      "name": "凌霄宝殿",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -685,7 +685,7 @@
     },
     {
       "id": "MAPSEC_POKEMON_TOWER",
-      "name": "POKéMON TOWER",
+      "name": "轮回司",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -709,7 +709,7 @@
     },
     {
       "id": "MAPSEC_ONE_ISLAND",
-      "name": "ONE ISLAND",
+      "name": "北俱芦洲",
       "x": 1,
       "y": 8,
       "width": 1,
@@ -717,7 +717,7 @@
     },
     {
       "id": "MAPSEC_TWO_ISLAND",
-      "name": "TWO ISLAND",
+      "name": "北俱芦洲",
       "x": 9,
       "y": 9,
       "width": 1,
@@ -725,7 +725,7 @@
     },
     {
       "id": "MAPSEC_THREE_ISLAND",
-      "name": "THREE ISLAND",
+      "name": "北俱芦洲",
       "x": 18,
       "y": 12,
       "width": 1,
@@ -733,7 +733,7 @@
     },
     {
       "id": "MAPSEC_FOUR_ISLAND",
-      "name": "FOUR ISLAND",
+      "name": "北俱芦洲",
       "x": 3,
       "y": 4,
       "width": 1,
@@ -741,7 +741,7 @@
     },
     {
       "id": "MAPSEC_FIVE_ISLAND",
-      "name": "FIVE ISLAND",
+      "name": "北俱芦洲",
       "x": 16,
       "y": 11,
       "width": 1,
@@ -749,7 +749,7 @@
     },
     {
       "id": "MAPSEC_SEVEN_ISLAND",
-      "name": "SEVEN ISLAND",
+      "name": "北俱芦洲",
       "x": 5,
       "y": 8,
       "width": 1,
@@ -757,7 +757,7 @@
     },
     {
       "id": "MAPSEC_SIX_ISLAND",
-      "name": "SIX ISLAND",
+      "name": "北俱芦洲",
       "x": 17,
       "y": 5,
       "width": 1,

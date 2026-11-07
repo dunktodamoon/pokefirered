@@ -612,10 +612,10 @@ gFameCheckerFlavorText_Giovanni5:: @ 0x81B0106
 
 
 gFameCheckerPersonName_ProfOak:: @ 0x81B0188
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}PROF. OAK$"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}南极翁$"
 
 gFameCheckerPersonQuote_ProfOak:: @ 0x81B0198
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: PROF. OAK\n"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: 南极翁\n"
 	.string "To: {PLAYER}\p"
 	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Why do POKéMON compete and battle\n"
 	.string "so hard for you?\p"
@@ -637,10 +637,10 @@ gFameCheckerPersonQuote_Daisy:: @ 0x81B025D
 	.string "to my little brother.$"
 
 gFameCheckerPersonName_Brock:: @ 0x81B030F
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}BROCK$"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}巨灵神$"
 
 gFameCheckerPersonQuote_Brock:: @ 0x81B031B
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: BROCK\n"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: 巨灵神\n"
 	.string "To: {PLAYER}\p"
 	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}In this big world of ours, there\n"
 	.string "must be many tough TRAINERS.\p"
@@ -648,10 +648,10 @@ gFameCheckerPersonQuote_Brock:: @ 0x81B031B
 	.string "making ourselves stronger!$"
 
 gFameCheckerPersonName_Misty:: @ 0x81B03B3
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}MISTY$"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}九头精$"
 
 gFameCheckerPersonQuote_Misty:: @ 0x81B03BF
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: MISTY\n"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: 九头精\n"
 	.string "To: {PLAYER}\p"
 	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I'm going to keep training here at\n"
 	.string "this GYM.\p"
@@ -659,10 +659,10 @@ gFameCheckerPersonQuote_Misty:: @ 0x81B03BF
 	.string "the road and travel.$"
 
 gFameCheckerPersonName_LtSurge:: @ 0x81B0446
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}LT. SURGE$"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}李靖$"
 
 gFameCheckerPersonQuote_LtSurge:: @ 0x81B0456
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: LT. SURGE\n"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: 李靖\n"
 	.string "To: {PLAYER}\p"
 	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Hey, kid!\n"
 	.string "You electrified me in our battle!\p"
@@ -672,10 +672,10 @@ gFameCheckerPersonQuote_LtSurge:: @ 0x81B0456
 	.string "you!$"
 
 gFameCheckerPersonName_Erika:: @ 0x81B0504
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}ERIKA$"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}镇元$"
 
 gFameCheckerPersonQuote_Erika:: @ 0x81B0510
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: ERIKA\n"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: 镇元\n"
 	.string "To: {PLAYER}\p"
 	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I am so glad that there are strong\n"
 	.string "TRAINERS like you.\p"
@@ -696,10 +696,10 @@ gFameCheckerPersonQuote_Koga:: @ 0x81B05CD
 	.string "Now, I must go train my daughter.$"
 
 gFameCheckerPersonName_Sabrina:: @ 0x81B0667
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}SABRINA$"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}金吒$"
 
 gFameCheckerPersonQuote_Sabrina:: @ 0x81B0675
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: SABRINA\n"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: 金吒\n"
 	.string "To: {PLAYER}\p"
 	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}The love you have towards your\n"
 	.string "POKéMON…\p"
@@ -707,10 +707,10 @@ gFameCheckerPersonQuote_Sabrina:: @ 0x81B0675
 	.string "bested by my psychic power.$"
 
 gFameCheckerPersonName_Blaine:: @ 0x81B06FB
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}BLAINE$"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}红孩儿$"
 
 gFameCheckerPersonQuote_Blaine:: @ 0x81B0708
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: BLAINE\n"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: 红孩儿\n"
 	.string "To: {PLAYER}\p"
 	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}My fire POKéMON!\n"
 	.string "They'll become even more powerful!\p"
@@ -718,10 +718,10 @@ gFameCheckerPersonQuote_Blaine:: @ 0x81B0708
 	.string "FIRE-type POKéMON are there?$"
 
 gFameCheckerPersonName_Lorelei:: @ 0x81B079F
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}LORELEI$"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}持国$"
 
 gFameCheckerPersonQuote_Lorelei:: @ 0x81B07AD
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: LORELEI\n"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: 持国\n"
 	.string "To: {PLAYER}\p"
 	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I needed to thank you for your\n"
 	.string "help.\p"
@@ -730,10 +730,10 @@ gFameCheckerPersonQuote_Lorelei:: @ 0x81B07AD
 	.string "You'd better watch out next time!$"
 
 gFameCheckerPersonName_Bruno:: @ 0x81B0845
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}BRUNO$"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}增长$"
 
 gFameCheckerPersonQuote_Bruno:: @ 0x81B0851
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: BRUNO\n"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: 增长\n"
 	.string "To: {PLAYER}\p"
 	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}The super power of your POKéMON\n"
 	.string "and you I've experienced myself.\p"
@@ -741,20 +741,20 @@ gFameCheckerPersonQuote_Bruno:: @ 0x81B0851
 	.string "how to train yourself.$"
 
 gFameCheckerPersonName_Agatha:: @ 0x81B08EE
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}AGATHA$"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}广目$"
 
 gFameCheckerPersonQuote_Agatha:: @ 0x81B08FB
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: AGATHA\n"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: 广目\n"
 	.string "To: {PLAYER}\p"
 	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}When you grow older, don't you\n"
 	.string "dare go soft like that coot OAK!\p"
 	.string "Be like me and keep battling on!$"
 
 gFameCheckerPersonName_Lance:: @ 0x81B097F
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}LANCE$"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}多闻$"
 
 gFameCheckerPersonQuote_Lance:: @ 0x81B098B
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: LANCE\n"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: 多闻\n"
 	.string "To: {PLAYER}\p"
 	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I'm considering going back to my\n"
 	.string "hometown.\p"
@@ -787,10 +787,10 @@ gFameCheckerPersonQuote_MrFuji:: @ 0x81B0B0E
 	.string "happiness of all POKéMON?$"
 
 gFameCheckerPersonName_Giovanni:: @ 0x81B0BA6
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}GIOVANNI$"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}牛魔王$"
 
 gFameCheckerPersonQuote_Giovanni:: @ 0x81B0BB5
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: GIOVANNI\n"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: 牛魔王\n"
 	.string "To: {PLAYER}\p"
 	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}There is nothing that I wish to say\n"
 	.string "to you.\p"
@@ -1089,7 +1089,7 @@ gFameCheckerFlavorTextOriginObjectName_ProfOak0::
 	.string "SIGN$"
 
 gFameCheckerFlavorTextOriginObjectName_ProfOak1::
-	.string "PROF. OAK$"
+	.string "南极翁$"
 
 gFameCheckerFlavorTextOriginObjectName_ProfOak2::
 	.string "AIDE$"
@@ -1098,7 +1098,7 @@ gFameCheckerFlavorTextOriginObjectName_ProfOak3::
 	.string "POKéMON JOURNAL$"
 
 gFameCheckerFlavorTextOriginObjectName_ProfOak4::
-	.string "AGATHA$"
+	.string "广目$"
 
 gFameCheckerFlavorTextOriginObjectName_ProfOak5::
 	.string "AIDE$"
@@ -1125,7 +1125,7 @@ gFameCheckerFlavorTextOriginObjectName_Brock0::
 	.string "SIGN$"
 
 gFameCheckerFlavorTextOriginObjectName_Brock1::
-	.string "BROCK$"
+	.string "巨灵神$"
 
 gFameCheckerFlavorTextOriginObjectName_Brock2::
 	.string "YOUNG MAN$"
@@ -1143,7 +1143,7 @@ gFameCheckerFlavorTextOriginObjectName_Misty0::
 	.string "SIGN$"
 
 gFameCheckerFlavorTextOriginObjectName_Misty1::
-	.string "MISTY$"
+	.string "九头精$"
 
 gFameCheckerFlavorTextOriginObjectName_Misty2::
 	.string "LUIS$"
@@ -1161,7 +1161,7 @@ gFameCheckerFlavorTextOriginObjectName_LtSurge0::
 	.string "SIGN$"
 
 gFameCheckerFlavorTextOriginObjectName_LtSurge1::
-	.string "LT. SURGE$"
+	.string "李靖$"
 
 gFameCheckerFlavorTextOriginObjectName_LtSurge2::
 	.string "TUCKER$"
@@ -1179,7 +1179,7 @@ gFameCheckerFlavorTextOriginObjectName_Erika0::
 	.string "SIGN$"
 
 gFameCheckerFlavorTextOriginObjectName_Erika1::
-	.string "ERIKA$"
+	.string "镇元$"
 
 gFameCheckerFlavorTextOriginObjectName_Erika2::
 	.string "LOLA$"
@@ -1188,7 +1188,7 @@ gFameCheckerFlavorTextOriginObjectName_Erika3::
 	.string "TAMIA$"
 
 gFameCheckerFlavorTextOriginObjectName_Erika4::
-	.string "ERIKA$"
+	.string "镇元$"
 
 gFameCheckerFlavorTextOriginObjectName_Erika5::
 	.string "POKéMON JOURNAL$"
@@ -1218,10 +1218,10 @@ gFameCheckerFlavorTextOriginObjectName_Sabrina1::
 	.string "YOUNG MAN$"
 
 gFameCheckerFlavorTextOriginObjectName_Sabrina2::
-	.string "SABRINA$"
+	.string "金吒$"
 
 gFameCheckerFlavorTextOriginObjectName_Sabrina3::
-	.string "SABRINA$"
+	.string "金吒$"
 
 gFameCheckerFlavorTextOriginObjectName_Sabrina4::
 	.string "POKéMON JOURNAL$"
@@ -1233,7 +1233,7 @@ gFameCheckerFlavorTextOriginObjectName_Blaine0::
 	.string "SIGN$"
 
 gFameCheckerFlavorTextOriginObjectName_Blaine1::
-	.string "BLAINE$"
+	.string "红孩儿$"
 
 gFameCheckerFlavorTextOriginObjectName_Blaine2::
 	.string "DEREK$"
@@ -1248,10 +1248,10 @@ gFameCheckerFlavorTextOriginObjectName_Blaine5::
 	.string "POKéMON JOURNAL$"
 
 gFameCheckerFlavorTextOriginObjectName_Lorelei0::
-	.string "LORELEI$"
+	.string "持国$"
 
 gFameCheckerFlavorTextOriginObjectName_Lorelei1::
-	.string "LORELEI$"
+	.string "持国$"
 
 gFameCheckerFlavorTextOriginObjectName_Lorelei2::
 	.string "OLD MAN$"
@@ -1266,10 +1266,10 @@ gFameCheckerFlavorTextOriginObjectName_Lorelei5::
 	.string "OLD LADY$"
 
 gFameCheckerFlavorTextOriginObjectName_Bruno0::
-	.string "BRUNO$"
+	.string "增长$"
 
 gFameCheckerFlavorTextOriginObjectName_Bruno1::
-	.string "BRUNO$"
+	.string "增长$"
 
 gFameCheckerFlavorTextOriginObjectName_Bruno2::
 	.string "POKéMON JOURNAL$"
@@ -1284,7 +1284,7 @@ gFameCheckerFlavorTextOriginObjectName_Bruno5::
 	.string "CRUSHER$"
 
 gFameCheckerFlavorTextOriginObjectName_Agatha0::
-	.string "AGATHA$"
+	.string "广目$"
 
 gFameCheckerFlavorTextOriginObjectName_Agatha1::
 	.string "CRUSHER$"
@@ -1296,16 +1296,16 @@ gFameCheckerFlavorTextOriginObjectName_Agatha3::
 	.string "POKéMON JOURNAL$"
 
 gFameCheckerFlavorTextOriginObjectName_Agatha4::
-	.string "AGATHA$"
+	.string "广目$"
 
 gFameCheckerFlavorTextOriginObjectName_Agatha5::
 	.string "OLD LADY$"
 
 gFameCheckerFlavorTextOriginObjectName_Lance0::
-	.string "LANCE$"
+	.string "多闻$"
 
 gFameCheckerFlavorTextOriginObjectName_Lance1::
-	.string "LANCE$"
+	.string "多闻$"
 
 gFameCheckerFlavorTextOriginObjectName_Lance2::
 	.string "WOMAN$"
@@ -1356,7 +1356,7 @@ gFameCheckerFlavorTextOriginObjectName_MrFuji5::
 	.string "POKéMON JOURNAL$"
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni0::
-	.string "GIOVANNI$"
+	.string "牛魔王$"
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni1::
 	.string "SCIENTIST$"
@@ -1365,7 +1365,7 @@ gFameCheckerFlavorTextOriginObjectName_Giovanni2::
 	.string "SCIENTIST$"
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni3::
-	.string "GIOVANNI$"
+	.string "牛魔王$"
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni4::
 	.string "MAN$"
